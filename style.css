@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7faff;
+  color: #222;
+}
+header.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background: #eaf6ff;
+  padding: 40px 20px;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+  color: #002366;
+}
+.hero-text p {
+  font-size: 1.2em;
+}
+.button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 15px;
+}
+.products, .testimonials, .team, .contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.product-image {
+  width: 200px;
+  height: 150px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.team-member {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+}
+.team-member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+footer {
+  background: #eaf6ff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.project-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+}
+.project-item img {
+  width: 100%;
+  border-radius: 8px;
+}
